@@ -43,5 +43,3 @@ This should create a production bundle for your extension, ready to be zipped an
 # click-n-save-Generic
 
 This is the base repository for a plasmo extension that i did to help DeMolay Brazil's NRC evaluators
-
-> > > > > > > a2d39600b3e92470859ad301e13709bcaf97b1af
