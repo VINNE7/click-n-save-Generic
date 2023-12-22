@@ -1,0 +1,13 @@
+#exampleCopyButton {
+  background-color: #6495ed;
+  outline: none;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+  white-space: nowrap;
+  user-select: none;
+}
+
+#exampleCopyButton:hover {
+  background-color: #70a1fa;
+}

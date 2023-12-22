@@ -1,0 +1,13 @@
+#exampleDownloadButton {
+  background-color: #6495ed;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  user-select: none;
+}
+
+#exampleDownloadButton:hover {
+  background-color: #70a1fa;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "click-n-save",
+  "displayName": "Click n save",
+  "version": "0.0.1",
+  "description": "A Plasmo extension developed to assist DeMolay Brazil's NRC Revisors. It is designed to automate simple processes, like download an exam as txt, or copy it's content",
+  "author": "VINNE7",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "test": "plasmo test"
+  },
+  "dependencies": {
+    "plasmo": "0.84.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+    "@types/chrome": "0.0.251",
+    "@types/node": "20.9.0",
+    "@types/react": "18.2.37",
+    "@types/react-dom": "18.2.15",
+    "prettier": "3.0.3",
+    "typescript": "5.2.2"
+  },
+  "manifest": {
+    "permissions": [
+      "contextMenus",
+      "downloads",
+      "activeTab"
+    ],
+    "host_permissions": [
+      "https://*/*"
+    ]
+  }
+}
